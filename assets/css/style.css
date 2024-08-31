@@ -65,9 +65,7 @@ text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    flex-wrap: wrap;
-    gap: 30px;
+        gap:8px;
 }
 footer{
     background-color: #000;
@@ -98,13 +96,14 @@ background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex:  1 1 400px;
+    /* flex:  1 1 400px; */
     margin-top: 30px;
 
 }
 .container-bo h5{
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 12px;
+    font-weight: bold;
 }
 .container-bo a {
     display: flex;
@@ -319,7 +318,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
         4.  About
 --------------------------------------*/
 .about {padding: 50px 0 100px;}
-.about-content {padding-top: 100px;}
+.about-content {padding-top: 60px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
     font-size:18px;
@@ -927,5 +926,50 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+
+.container_css{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.project_box{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s linear;
+}.project_box img{
+    width:200px ;
+    height: 200px;
+    object-fit: cover;
+}
+.project_box div{
+    padding: 12px;
+    border: 0.9px solid #00000000;
+
+}
+.project_box div:hover{
+    border: 0.9px solid #00000027;
+}
+.project_box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+}
+.project_box a h5{
+    margin-top: 20px;
+}
+.project_box div:hover h5{
+    color: #9f00ff;
+}
+.my_Top{
+    margin-top: 50px;
 }
 /*========================Thank you=================
